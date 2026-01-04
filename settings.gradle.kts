@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MiniMap"
+rootProject.name = "MiniMap32"
 include(":app")
  

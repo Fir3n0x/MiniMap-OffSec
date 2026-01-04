@@ -223,9 +223,9 @@ private fun ScanButton(navController: NavController) {
 @Composable
 private fun TerminalTitle(animate: Boolean = true, showVersion: Boolean = false) {
     var showCursor by remember { mutableStateOf(false) }
-    var textToDisplay by remember { mutableStateOf(if (animate) "" else "MINIMAP") }
+    var textToDisplay by remember { mutableStateOf(if (animate) "" else "MINIMAP32") }
     var showPrefix by remember { mutableStateOf(animate) }
-    val fullText = "MINIMAP"
+    val fullText = "MINIMAP32"
     val prefix = "$> "
     var animationComplete by remember { mutableStateOf(!animate) }
 
