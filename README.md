@@ -1,6 +1,6 @@
-# MiniMap-OffSec – Wi‑Fi Offensive Tool
+# MiniMap32 – Wi‑Fi Offensive Tool
 
-> **MiniMap-OffSec** is an Android application that passively scans nearby Wi‑Fi networks, predicts their security level with an on‑device machine‑learning model, and lets you store, visualise, and share the results. It also connects to an ESP32 and allows to perform sniffing attack through a specific network and also deauthentication attacks.
+> **MiniMap32** is an Android application that passively scans nearby Wi‑Fi networks, predicts their security level with an on‑device machine‑learning model, and lets you store, visualise, and share the results. It also connects to an ESP32 and allows to perform sniffing attack through a specific network and also deauthentication attacks.
 
 > **Educational purpose only** This project does not aim to perform any attack on networks systems except those you manage or keep in a lab. So, please, be responsible, be ethical.
 
