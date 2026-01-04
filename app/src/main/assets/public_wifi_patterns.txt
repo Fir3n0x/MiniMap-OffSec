@@ -1,0 +1,68 @@
+# Format:
+# [type]:[pattern]
+# type = "simple" or "regex"
+# pattern = pattern to look for
+
+# Simple expressions (case-insensitive)
+simple:eduroam
+simple:citywifi
+simple:public
+simple:free
+simple:guest
+simple:hotspot
+simple:municipal
+simple:open
+simple:visitor
+simple:cafe
+simple:hotel
+simple:airport
+simple:station
+simple:library
+simple:mall
+simple:shopping
+simple:train
+simple:bus
+simple:metro
+simple:university
+simple:college
+simple:campus
+simple:hospital
+simple:starbucks
+simple:mcdo
+simple:mcdonalds
+simple:restaurant
+simple:bar
+simple:coffee
+simple:freewifi
+simple:wifi-guest
+simple:wifi-free
+simple:wifi-visitor
+simple:wifi-open
+simple:wifi4all
+simple:internet4all
+simple:publicaccess
+simple:sharedwifi
+simple:community
+simple:fon
+simple:btwifi
+simple:tmobile
+simple:attwifi
+simple:xfinitywifi
+simple:spectrum
+simple:orange
+simple:sfwifi
+simple:nycwifi
+simple:londonwifi
+simple:pariswifi
+
+# Advanced expressions
+regex:(?i)(public|free|guest|open)[\s_-]?(wifi|network|access|internet)
+regex:(?i)(wifi|network)[\s_-]?(public|free|guest|open)
+regex:(?i)(hotel|airport|station|train|bus|metro|library|mall|cafe|restaurant|bar|coffee|shop)[\s_-]?(wifi|internet)
+regex:(?i)^(free|public|guest)[\s_-]?(wifi|hotspot)
+regex:(?i)(city|municipal|community)[\s_-]?(wifi|network)
+regex:(?i)(shared|open)[\s_-]?(access|network)
+regex:(?i)^(wi-fi|wi fi|wireless)[\s_-]?(free|public)
+regex:(?i)(starbucks|mcdo|mcdonalds|burgerking)[\s_-]?(wifi|guest)
+regex:(?i)(university|college|campus|school)[\s_-]?(wifi|network)
+regex:(?i)(hospital|clinic|medical)[\s_-]?(wifi|guest)
